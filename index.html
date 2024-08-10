@@ -1,19 +1,535 @@
 <!DOCTYPE html>
 <html>
-    <head lag=en>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="how to use an online calculator, use it, believe it">
-        <meta name ="keywords" content="online calculator, maths calculation">
-        <meta name="author" content="josephat">
-        <meta property="og:title" content="maths calculator">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        </head>
-        <body>
-            <div>hello world</div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        </body>
+
+<head lag=en>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="how to use an online calculator, use it, believe it">
+    <meta name="keywords" content="Nutrional questionnaire, eat smart live smart ">
+    <meta name="author" content="Austin">
+    <meta property="og:title" content="maths calculator">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        h6 {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body style="font-family: sans-serif;">
+    <p style="background-color: aquamarine; color: aquamarine; font-size: 20px;">0</p>
+    <p style="background-color: rgb(17, 18, 18); color: rgb(6, 7, 7); font-size: 6px;">0</p>
+    <div class="container-lg">
+        <div class=" p-4 container-fluid">
+            <h1 class="text-center">MAKERERE UNIVERSITY</h1>
+            <h3 class="text-center">COLLEGE OF ENVIRONMENT AND AGRICULTURAL SCIENCES</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div>My name is <strong>Odongo Austin</strong>, a student at Makerere university persuing a bachelor's
+                    degree in
+                    food science and technology conducting research on knowledge, attitude and use of food label
+                    information in
+                    purchasing prepacked food products. kindly fill the <q>questionnaire</q> honestly and accurately. be
+                    assured
+                    that the information you give will be treated with almost confidentiality and used for research
+                    purpose only.
+                    <b>Thank you</b>
+                </div>
+            </div>
+        </div>
+        <form action="https://formbold.com/s/9XDxY" method="POST" enctype="multipart/form-data">
+
+            <h5>SECTION A: RESPODENT'S INFORMATION</h5>
+            <ol>
+                <li>
+                    <h6>Age at last birth</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Respodent's age" id="exampleRadios1"
+                            value="option1" required>
+                        <label class="form-check-label" for="exampleRadios1">
+                            18-25 yrs
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Respodent's age" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            26-40 yrs
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Respodent's age" id="exampleRadios3"
+                            value="option3">
+                        <label class="form-check-label" for="exampleRadios3">
+                            41-60 yrs
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Respodent's age" id="exampleRadios4"
+                            value="option4">
+                        <label class="form-check-label" for="exampleRadios4">
+                            Above 60 yrs
+                        </label>
+                    </div>
+                </li>
+
+                <li>
+                    <h6>Gender</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sex" id="sex2" value="option1" required>
+                        <label class="form-check-label" for="sex2">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sex" id="sex1" value="option2">
+                        <label class="form-check-label" for="sex1">
+                            Female
+                        </label>
+                    </div>
+                </li>
+
+                <li>
+                    <h6>Highest lavel of Education</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Education" id="edu1" value="option1"
+                            required>
+                        <label class="form-check-label" for="edu1">
+                            No formal Education
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Education" id="edu2" value="option2">
+                        <label class="form-check-label" for="edu2">
+                            Primary
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Education" id="edu3" value="option3">
+                        <label class="form-check-label" for="edu3">
+                            Tertiary
+                        </label>
+                    </div>
+                </li>
+            </ol>
 
 
+
+            <h5>SECTION B: KNOWLEDGE OF FOOD LABEL INFORMATION</h5>
+            <ol>
+                <li>
+                    <h6>Are you aware of the labels on food products you buy?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.1" id="LAB" value="option1"
+                            required>
+                        <label class="form-check-label" for="LAB">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.1" id="LAB1" value="option2">
+                        <label class="form-check-label" for="LAB1">
+                            No
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <h6> How well do you think you understand the informationon food labels?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.2" id="lab" value="option1"
+                            required>
+                        <label class="form-check-label" for="lab">
+                            I understand it very much
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.2" id="lab1" value="option2">
+                        <label class="form-check-label" for="lab1">
+                            I fairly understand it
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.2" id="lab3" value="option3">
+                        <label class="form-check-label" for="lab3">
+                            I do not understand anything
+                        </label>
+                    </div>
+                </li>
+
+                <li>
+                    <h6>Where did you get the knowledge on food labels from?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.3" id="kno1" value="option1"
+                            required>
+                        <label class="form-check-label" for="kno1">
+                            School
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.3" id="kno2" value="option2">
+                        <label class="form-check-label" for="kno2">
+                            Television/ radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.3" id="kno3" value="option3">
+                        <label class="form-check-label" for="kno3">
+                            Family members/friends
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.3" id="kno4" value="option4">
+                        <label class="form-check-label" for="kno4">
+                            Internet/ social media
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.3" id="kno5" value="option5">
+                        <label class="form-check-label" for="kno5">
+                            Not sure
+                        </label>
+                    </div>
+                </li>
+
+                <li>
+                    <h6>Which of the following need to be reduced in our diet of their possible harmful effect?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.4" id="red1" value="option1"
+                            required>
+                        <label class="form-check-label" for="red1">
+                            Sugar
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.4" id="red2" value="option2">
+                        <label class="form-check-label" for="red2">
+                            Sodium
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.4" id="red3" value="option3">
+                        <label class="form-check-label" for="red3">
+                            Cholesterol
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.4" id="red4" value="option4">
+                        <label class="form-check-label" for="red4">
+                            Fats
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <h6>Are food products still safe to be consumed two days after expiry date?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.5" id="SAF1" value="option1"
+                            required>
+                        <label class="form-check-label" for="SAF1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT B, No.5" id="SAF2" value="option2">
+                        <label class="form-check-label" for="SAF2">
+                            No
+                        </label>
+                    </div>
+                </li>
+            </ol>
+
+
+            <h5>SECTION C: ATTITUDE TO FOOD LABEL INFORMATION (choose appropriately)</h5>
+            <ol>
+                <li>
+                    <div class="row">
+                        <h6>Food labels are just for advertisement.?</h6>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 1" id="kno11" value="option1"
+                                required>
+                            <label class="form-check-label" for="kno11">
+                                Strongly agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 1" id="kno12" value="option2">
+                            <label class="form-check-label" for="kno12">
+                                Agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 1" id="kno13" value="option3">
+                            <label class="form-check-label" for="kno13">
+                                Disagree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 1" id="kno14" value="option4">
+                            <label class="form-check-label" for="kno14">
+                                Strongly disagree
+                            </label>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <h6>Ignoring information on food labels could affect my health</h6>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 2" id="kno10" value="option1"
+                                required>
+                            <label class="form-check-label" for="kno10">
+                                Strongly agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 2" id="kno22" value="option2">
+                            <label class="form-check-label" for="kno22">
+                                Agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 2" id="kno23" value="option3">
+                            <label class="form-check-label" for="kno23">
+                                Disagree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 2" id="kno24" value="option4">
+                            <label class="form-check-label" for="kno24">
+                                Strongly disagree
+                            </label>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <h6>The amount of nutrients on food labels is too little</h6>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 3" id="kno31" value="option1"
+                                required>
+                            <label class="form-check-label" for="kno31">
+                                Strongly agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 3" id="kno32" value="option2">
+                            <label class="form-check-label" for="kno32">
+                                Agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 3" id="kno33" value="option3">
+                            <label class="form-check-label" for="kno33">
+                                Disagree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 3" id="kno34" value="option4">
+                            <label class="form-check-label" for="kno34">
+                                Strongly disagree
+                            </label>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="row">
+                        <h6>food labels are meant to guide me make healthy food choices.</h6>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 4" id="kno41" value="option1"
+                                required>
+                            <label class="form-check-label" for="kno41">
+                                Strongly agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 4" id="kno42" value="option2">
+                            <label class="form-check-label" for="kno42">
+                                Agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 4" id="kno43" value="option3">
+                            <label class="form-check-label" for="kno43">
+                                Disagree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 4" id="kno44" value="option4">
+                            <label class="form-check-label" for="kno44">
+                                Strongly disagree
+                            </label>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <h6>Its hard to understand and interprete the information on the food labels.</h6>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 5" id="kno51" value="option1"
+                                required>
+                            <label class="form-check-label" for="kno51">
+                                Strongly agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 5" id="kno52" value="option2">
+                            <label class="form-check-label" for="kno52">
+                                Agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 5" id="kno53" value="option3">
+                            <label class="form-check-label" for="kno53">
+                                Disagree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 5" id="kno54" value="option4">
+                            <label class="form-check-label" for="kno54">
+                                Strongly disagree
+                            </label>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="row">
+                        <h6>The information on food labels is authentic and trustworthy</h6>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 6" id="kno61" value="option1"
+                                required>
+                            <label class="form-check-label" for="kno61">
+                                Strongly agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 6" id="kno62" value="option2">
+                            <label class="form-check-label" for="kno62">
+                                Agree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 6" id="kno63" value="option3">
+                            <label class="form-check-label" for="kno63">
+                                Disagree
+                            </label>
+                        </div>
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="radio" name="SECT C No. 6" id="kno64" value="option4">
+                            <label class="form-check-label" for="kno64">
+                                Strongly disagree
+                            </label>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            <h5>SECTION D: USE OF FOOD LABEL INFORMATION</h5>
+            <ol>
+                <li>
+                    <h6>Are food products still safe to be consumed two days after expiry date?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 1" id="SAF11" value="option1"
+                            required>
+                        <label class="form-check-label" for="SAF11">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 1" id="SAF12" value="option2">
+                        <label class="form-check-label" for="SAF12">
+                            No
+                        </label>
+                    </div>
+                </li>
+
+                <li>
+                    <h6>If <q>no</q>why don't you read food labels everytime?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 2" id="SAF21" value="option1"
+                            required>
+                        <label class="form-check-label" for="SAF21">
+                            I'm already familiar with the brands
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 2" id="SAF22" value="option2">
+                        <label class="form-check-label" for="SAF22">
+                            I donot trust the iformation on the food labels
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 2" id="SAF23" value="option2">
+                        <label class="form-check-label" for="SAF23">
+                            I don't have enough time to read food labels
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 2" id="SAF24" value="option2">
+                        <label class="form-check-label" for="SAF24">
+                            Lack of interests
+                        </label>
+                    </div>
+                </li>
+
+
+                <li>
+                    <h6>How often do you read food labels when buying the product got the first time?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 3" id="SAF31" value="option1"
+                            required>
+                        <label class="form-check-label" for="SAF31">
+                            Everytime
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 3" id="SAF32" value="option2">
+                        <label class="form-check-label" for="SAF32">
+                            I hardly read
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SECT D, No. 3" id="SAF33" value="option2">
+                        <label class="form-check-label" for="SAF33">
+                            Once in a while
+                        </label>
+                    </div>
+
+                </li>
+            </ol>
+
+            <input class="btn btn-success offset-sm-1 offset-md-0 px-4 m-3" type="submit">
+        </form>
+
+        <H5 class="text-center">Thank you very much for your responses and time.</H5>
+    </div>
+    <p style="background-color: rgb(17, 18, 18); color: rgb(2, 2, 2); font-size: 6px;">0</p>
+
+    <div class="bg-dark text-white py-2">
+        <p
+            style="background-color: rgb(36, 163, 163); color: rgb(53, 219, 219); font-size: 6px; margin:0px; padding:0px;">
+            0</p>
+
+
+        <div class="text-center">
+            <h3>Please, NOTE</h3>
+            <h4>We do <q>websites development</q> for our clients at affordable prices;</h4>
+            <h4>For orders or inquires,</h4>
+            <h3>Contact us: 0776164868</h3>
+            <h4>Email: mbabazimuk@gmail.com</h4>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
